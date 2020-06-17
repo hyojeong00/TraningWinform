@@ -13,6 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxTestApp", "CheckBox
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonTestApp", "RadioButtonTestApp\RadioButtonTestApp.csproj", "{9AEC22CE-18CB-4590-8B60-839E829F1B76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxTest", "RadioButtonTestApp2\TextBoxTest.csproj", "{BBAEA406-18B7-4527-B03B-0DA01D161FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListControlTestApp", "ListControlTestApp\ListControlTestApp.csproj", "{AEA1E997-9AF9-4614-8714-33B4D40CB6A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckListBoxApp", "CheckListBoxApp\CheckListBoxApp.csproj", "{AF89C94E-F39C-46E2-9EA8-FF7FF4B74C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModalDlgApp", "ModalDlgApp\ModalDlgApp.csproj", "{91E81161-641E-47D4-BFD4-377727B62E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modal2", "Modal2\Modal2.csproj", "{61FD33A4-3EDD-47DE-AFBD-A84E0D740303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenuApp", "MainMenuApp\MainMenuApp.csproj", "{B538CE52-9F2D-489E-AB5D-D2D8E939DDB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +51,30 @@ Global
 		{9AEC22CE-18CB-4590-8B60-839E829F1B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEC22CE-18CB-4590-8B60-839E829F1B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEC22CE-18CB-4590-8B60-839E829F1B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAEA406-18B7-4527-B03B-0DA01D161FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAEA406-18B7-4527-B03B-0DA01D161FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAEA406-18B7-4527-B03B-0DA01D161FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAEA406-18B7-4527-B03B-0DA01D161FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA1E997-9AF9-4614-8714-33B4D40CB6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA1E997-9AF9-4614-8714-33B4D40CB6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA1E997-9AF9-4614-8714-33B4D40CB6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA1E997-9AF9-4614-8714-33B4D40CB6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF89C94E-F39C-46E2-9EA8-FF7FF4B74C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF89C94E-F39C-46E2-9EA8-FF7FF4B74C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF89C94E-F39C-46E2-9EA8-FF7FF4B74C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF89C94E-F39C-46E2-9EA8-FF7FF4B74C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E81161-641E-47D4-BFD4-377727B62E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E81161-641E-47D4-BFD4-377727B62E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E81161-641E-47D4-BFD4-377727B62E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E81161-641E-47D4-BFD4-377727B62E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FD33A4-3EDD-47DE-AFBD-A84E0D740303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FD33A4-3EDD-47DE-AFBD-A84E0D740303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FD33A4-3EDD-47DE-AFBD-A84E0D740303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FD33A4-3EDD-47DE-AFBD-A84E0D740303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B538CE52-9F2D-489E-AB5D-D2D8E939DDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B538CE52-9F2D-489E-AB5D-D2D8E939DDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B538CE52-9F2D-489E-AB5D-D2D8E939DDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B538CE52-9F2D-489E-AB5D-D2D8E939DDB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
