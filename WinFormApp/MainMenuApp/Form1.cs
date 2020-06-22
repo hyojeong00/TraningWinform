@@ -17,9 +17,10 @@ namespace MainMenuApp
             InitializeComponent();
         }
 
-        private void 새파일ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MnuNewFile_Click(object sender, EventArgs e)
         {
             textBox1.Text += MnuNewFile.Text + Environment.NewLine;
+            toolStripStatusLabel1.Text = MnuNewFile.Text;
         }
 
         private void 종료XToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +61,23 @@ namespace MainMenuApp
             {
                 contextMenuStrip1.Show(e.Location);
             }
+        }
+
+        private void textBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void textBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            LblMouseLocation.Text = $"(X : Y) = ({e.X}, {e.Y})";
+        }
+
+
+    
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            MnuNewFile_Click(sender, e);
         }
     }
 }
