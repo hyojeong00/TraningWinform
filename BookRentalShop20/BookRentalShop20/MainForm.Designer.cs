@@ -33,9 +33,10 @@
             this.MnuItemDivMng = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuUserMng = new System.Windows.Forms.ToolStripMenuItem();
             this.회원관리MToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.책관리BToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.렌탈관리RToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.lblUserId = new System.Windows.Forms.Label();
-            this.책관리BToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +58,8 @@
             this.MnuItemDivMng,
             this.MnuUserMng,
             this.회원관리MToolStripMenuItem,
-            this.책관리BToolStripMenuItem});
+            this.책관리BToolStripMenuItem,
+            this.렌탈관리RToolStripMenuItem});
             this.메인관리MToolStripMenuItem.Font = new System.Drawing.Font("Neo둥근모", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.메인관리MToolStripMenuItem.Name = "메인관리MToolStripMenuItem";
             this.메인관리MToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
@@ -84,6 +86,20 @@
             this.회원관리MToolStripMenuItem.Text = "회원관리(&M)";
             this.회원관리MToolStripMenuItem.Click += new System.EventHandler(this.회원관리MToolStripMenuItem_Click);
             // 
+            // 책관리BToolStripMenuItem
+            // 
+            this.책관리BToolStripMenuItem.Name = "책관리BToolStripMenuItem";
+            this.책관리BToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.책관리BToolStripMenuItem.Text = "책관리(&B)";
+            this.책관리BToolStripMenuItem.Click += new System.EventHandler(this.책관리BToolStripMenuItem_Click);
+            // 
+            // 렌탈관리RToolStripMenuItem
+            // 
+            this.렌탈관리RToolStripMenuItem.Name = "렌탈관리RToolStripMenuItem";
+            this.렌탈관리RToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.렌탈관리RToolStripMenuItem.Text = "대여관리(&R)";
+            this.렌탈관리RToolStripMenuItem.Click += new System.EventHandler(this.렌탈관리RToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -102,13 +118,6 @@
             this.lblUserId.Name = "lblUserId";
             this.lblUserId.Size = new System.Drawing.Size(0, 15);
             this.lblUserId.TabIndex = 2;
-            // 
-            // 책관리BToolStripMenuItem
-            // 
-            this.책관리BToolStripMenuItem.Name = "책관리BToolStripMenuItem";
-            this.책관리BToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.책관리BToolStripMenuItem.Text = "책관리(&B)";
-            this.책관리BToolStripMenuItem.Click += new System.EventHandler(this.책관리BToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -146,6 +155,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblUserId;
         private System.Windows.Forms.ToolStripMenuItem 책관리BToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 렌탈관리RToolStripMenuItem;
     }
 }
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BookRentalShop20.Properties {
+namespace BookRentalShop2020.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
