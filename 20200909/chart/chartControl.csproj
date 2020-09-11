@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FC6B680-2584-4A97-B273-CCE25DB83767}</ProjectGuid>
+    <ProjectGuid>{96D1B83E-AAE5-474A-BCA6-1C19C3E27C4D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Mac</RootNamespace>
-    <AssemblyName>Mac</AssemblyName>
+    <RootNamespace>chart</RootNamespace>
+    <AssemblyName>chart</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,14 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PacketDotNet">
-      <HintPath>..\..\..\..\Users\user\Documents\Visual Studio 2019\pcap\PacketDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpPcap">
-      <HintPath>..\..\..\..\Users\user\Documents\Visual Studio 2019\pcap\SharpPcap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactoLabel.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

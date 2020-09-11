@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FC6B680-2584-4A97-B273-CCE25DB83767}</ProjectGuid>
+    <ProjectGuid>{86046F8F-F7A9-40D6-9D91-296A00F649A7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Mac</RootNamespace>
-    <AssemblyName>Mac</AssemblyName>
+    <RootNamespace>mybook</RootNamespace>
+    <AssemblyName>mybook</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PacketDotNet">
-      <HintPath>..\..\..\..\Users\user\Documents\Visual Studio 2019\pcap\PacketDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpPcap">
-      <HintPath>..\..\..\..\Users\user\Documents\Visual Studio 2019\pcap\SharpPcap.dll</HintPath>
+    <Reference Include="MySql.Data, Version=8.0.13.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.13\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,7 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactoLabel.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
